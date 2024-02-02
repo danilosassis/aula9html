@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 120px;
+    background-color: rgb(247, 247, 247);
+    border: rgb(202, 202, 202);
+    
+    
+}
+.menu_lista{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    font-size: 9px;
+    
+}
+.logo_menu{
+    max-height: 20px;
+}
+
+.menu_lista_item1{
+    background-color: white;
+    border: thin black;
+    border-radius: 7px;
+    padding: 3px 10px;
+}
+
+.menu_lista_item2{
+    background-color: black;
+    color: white;
+    padding: 3px 10px;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.banner_infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;padding: 10px 120px;
+    flex-direction: column;
+}
+.banner_titulo{
+    font-weight:900;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px 120px 10px;
+    max-width: 70vw;
+}
+.banner_texto{
+    display: flex;
+    text-align: center;
+    justify-content: center;font-weight: lighter;
+}
+.menu_periodos{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.menu_periodos_items{
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    align-items:center; padding: 20px;
+}
+.menu_periodos_item1{
+   border: solid black;
+   text-decoration: none;
+   padding: 4px 15px;
+   border-radius: 6px 0px 0px 6px;
+}
+.menu_periodos_item2{
+    border: solid black;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 4px 15px;
+    border-radius: 0px 6px 6px 0px;
+}
+.menu_periodos_item_etiqueta{
+    padding: 4px 10px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 20px 0px 0px 0px;
+    
+    
+}
